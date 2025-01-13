@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Model;
+using Service.RoleService;
 
 namespace ShareMoney
 {
@@ -15,14 +16,20 @@ namespace ShareMoney
             builder.Services.AddDbContext<ShareMoneyContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.Scan(scan => scan
-                .FromAssemblyOf<Program>()
-                .AddClasses(classes => classes
-                    .Where(type => type.Name
-                    .EndsWith("Service"))) // Lọc các lớp kết thúc bằng "Service"
-                .AsImplementedInterfaces()
-                .WithScopedLifetime()
-            );
+            // Thêm các service cần thiết dưới đây
+            builder.Services.AddScoped<IRoleService, RoleService>();
+
+
+            // Thêm các dịch vụ cần thiết cho Session
+            builder.Services.AddDistributedMemoryCache(); // Lưu Session trong bộ nhớ
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(300); // Thời gian hết hạn của Session
+                options.Cookie.HttpOnly = true; // Cookie chỉ có thể được truy cập từ phía server
+                options.Cookie.IsEssential = true; // Cần thiết cho ứng dụng hoạt động
+            });
+
+
 
             var app = builder.Build();
 
@@ -36,9 +43,8 @@ namespace ShareMoney
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthorization();
 
             app.MapControllerRoute(

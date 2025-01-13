@@ -1,0 +1,12 @@
+﻿.btnAdd {
+    display: flex;
+    justify-content: end;
+}
+
+.bi {
+    padding-right: 5px !important;
+}
+
+.btn {
+    padding: 10px !important;
+}

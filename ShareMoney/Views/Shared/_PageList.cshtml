@@ -1,0 +1,62 @@
+﻿@using Web.Models.Common;
+@model PageList
+
+<style>
+    .pagelist {
+        display: flex;
+        justify-content: end;
+    }
+
+</style>
+
+<div class="pagelist">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link @(Model.HasPreviousPage == true ? "" : "disabled")" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            @if (Model.TotalPages >= 0)
+            {
+                @for (var i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item">
+                        <a class="page-link"
+                           onclick="ReRenderViewData(@i)">
+                            @i
+                        </a>
+                    </li>
+                }
+            }
+            <li class="page-item">
+                <a class="page-link @(Model.HasNextPage == true ? "" : "disabled")" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+            @if (Model.PageSize == -1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="#">Tất cả</a>
+                </li>
+            }
+
+        </ul>
+    </nav>
+</div>
+
+<script>
+    function ReRenderViewData(pageIndex) {
+        $.ajax({
+            url: '@Url.Action(Model.ActionName, Model.ControllerName)',
+            type: 'GET',
+            data: {
+                PageIndex: pageIndex,
+                PageSize: '@Model.PageSize'
+            },
+            success: function (data) {
+                $('#viewData').html(data);
+            }
+        });
+    }
+</script>

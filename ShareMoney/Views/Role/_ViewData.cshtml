@@ -1,0 +1,51 @@
+﻿@using Service.RoleService.Dto;
+@using X.PagedList;
+@using Web.Models.Common;
+@model IPagedList<RoleDto>
+
+<div class="container">
+    <h2>Danh sách vai trò</h2>
+    <table class="table table-responsive table-bordered table-striped table-hover">
+        <thead class="table-info">
+            <tr>
+                <th>STT</th>
+                <th>Code</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                int stt = (Model.PageNumber - 1) * Model.PageSize;
+                foreach (var item in Model)
+                {
+                            <tr>
+                                <td>@(++stt)</td>
+                                <td>@item.Code</td>
+                                <td>@item.Name</td>
+                            </tr>
+                }
+            }
+            else
+            {
+                    <tr>
+                        <td colspan="3" class="text-center">Không có dữ liệu</td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+
+    @* Phân trang  *@
+    @{
+        Html.RenderPartial("_PageList", new PageList
+            {
+                HasPreviousPage = Model.HasPreviousPage,
+                HasNextPage = Model.HasNextPage,
+                TotalPages = Model.PageCount,
+                PageSize = Model.PageSize,
+                TotalCount = Model.TotalItemCount,
+                PageIndex = Model.PageNumber,
+                ControllerName = "Role"
+            });
+    }
+</div>

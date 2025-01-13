@@ -18,53 +18,55 @@ namespace Service.EntityService
             _dbSet = context.Set<T>();
         }
 
-        public async Task<T> GetByIdAsync(Guid id)
+        public T GetById(Guid id)
         {
-            return await _dbSet.FindAsync(id);
+            return _dbSet.Find(id);
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public IEnumerable<T> GetAll()
         {
-            return await _dbSet.ToListAsync();
+            return _dbSet.ToList();
         }
 
-        public async Task CreateAsync(T entity)
+        public void Create(T entity)
         {
-            await _dbSet.AddAsync(entity);
-            await _context.SaveChangesAsync();
+            _dbSet.Add(entity);
+            _context.SaveChanges();
         }
 
-        public async Task CreateRangeAsync(IEnumerable<T> entities)
+        public void CreateRange(IEnumerable<T> entities)
         {
             _dbSet.AddRange(entities);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
-        public async Task UpdateAsync(T entity)
+        public void Update(T entity)
         {
             _dbSet.Update(entity);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
-        public async Task UpdateRangeAsync(IEnumerable<T> entities)
+        public void UpdateRange(IEnumerable<T> entities)
         {
             _dbSet.UpdateRange(entities);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public void Delete(Guid id)
         {
-            var entity = await _dbSet.FindAsync(id);
+            var entity = _dbSet.Find(id);
             if (entity != null)
             {
                 _dbSet.Remove(entity);
-                await _context.SaveChangesAsync();
+                _context.SaveChanges();
             }
         }
-        public async Task DeleteRangeAsync(IEnumerable<T> entities)
+
+        public void DeleteRange(IEnumerable<T> entities)
         {
             _dbSet.RemoveRange(entities);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
+
     }
 }

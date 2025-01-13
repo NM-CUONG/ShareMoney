@@ -8,10 +8,10 @@ namespace Model.Entities
 {
     public class Audit
     {
-        public Guid? Id { get; set; }
-        public Guid? CreatedBy { get; set; }
+        public long Id { get; set; }
+        public long? CreatedBy { get; set; }
         public DateTime? CreatedDate { get; set; }
-        public Guid? ModifiedBy { get; set; }
+        public long? ModifiedBy { get; set; }
         public DateTime? ModifiedDate { get; set; }
     }
 

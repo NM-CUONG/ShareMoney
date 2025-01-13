@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\ShareMoney\\ShareMoney\\Service\\Service.csproj": {}
+    "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\ShareMoney\\ShareMoney\\Model\\Model.csproj": {
+    "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\ShareMoney\\ShareMoney\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Projects\\ShareMoney\\ShareMoney\\Model\\Model.csproj",
+        "projectPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\ShareMoney\\ShareMoney\\Model\\obj\\",
+        "outputPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Projects\\ShareMoney\\ShareMoney\\Service\\Service.csproj": {
+    "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\ShareMoney\\ShareMoney\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Projects\\ShareMoney\\ShareMoney\\Service\\Service.csproj",
+        "projectPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\ShareMoney\\ShareMoney\\Service\\obj\\",
+        "outputPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\ShareMoney\\ShareMoney\\Model\\Model.csproj": {
-                "projectPath": "D:\\Projects\\ShareMoney\\ShareMoney\\Model\\Model.csproj"
+              "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj": {
+                "projectPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj"
               }
             }
           }
@@ -146,6 +146,10 @@
             "Scrutor": {
               "target": "Package",
               "version": "[5.1.0, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[10.5.7, )"
             }
           },
           "imports": [

@@ -3,13 +3,14 @@ namespace Service.EntityService
 {
     public interface IEntityService<T> where T : class
     {
-        Task<T> GetByIdAsync(Guid id);
-        Task<IEnumerable<T>> GetAllAsync();
-        Task CreateAsync(T entity);
-        Task UpdateAsync(T entity);
-        Task DeleteAsync(Guid id);
-        Task DeleteRangeAsync(IEnumerable<T> entities);
-        Task CreateRangeAsync(IEnumerable<T> entities);
-        Task UpdateRangeAsync(IEnumerable<T> entities);
+        T GetById(Guid id);
+        IEnumerable<T> GetAll();
+        void Create(T entity);
+        void Update(T entity);
+        void Delete(Guid id);
+        void DeleteRange(IEnumerable<T> entities);
+        void CreateRange(IEnumerable<T> entities);
+        void UpdateRange(IEnumerable<T> entities);
+
     }
 }
