@@ -13,7 +13,9 @@
     <nav aria-label="Page navigation example">
         <ul class="pagination">
             <li class="page-item">
-                <a class="page-link @(Model.HasPreviousPage == true ? "" : "disabled")" href="#" aria-label="Previous">
+                <a class="page-link @(Model.HasPreviousPage == true ? "" : "disabled")"
+                   aria-label="Previous"
+                   onclick="ReRenderViewData(@(Model.PageIndex - 1))">
                     <span aria-hidden="true">&laquo;</span>
                 </a>
             </li>
@@ -21,8 +23,8 @@
             {
                 @for (var i = 1; i <= Model.TotalPages; i++)
                 {
-                    <li class="page-item">
-                        <a class="page-link"
+                    <li class="page-item ">
+                        <a class="page-link @(Model.PageIndex == i ? "bg-info" : "")"
                            onclick="ReRenderViewData(@i)">
                             @i
                         </a>
@@ -30,7 +32,9 @@
                 }
             }
             <li class="page-item">
-                <a class="page-link @(Model.HasNextPage == true ? "" : "disabled")" href="#" aria-label="Next">
+                <a class="page-link @(Model.HasNextPage == true ? "" : "disabled")"
+                   aria-label="Next"
+                   onclick="ReRenderViewData(@(Model.PageIndex + 1))">
                     <span aria-hidden="true">&raquo;</span>
                 </a>
             </li>
@@ -44,6 +48,9 @@
         </ul>
     </nav>
 </div>
+<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/common.js"></script>
 
 <script>
     function ReRenderViewData(pageIndex) {
@@ -56,7 +63,23 @@
             },
             success: function (data) {
                 $('#viewData').html(data);
+            },
+            error: function() {
+                toastr.error("Không thể lấy dữ liệu!");
             }
         });
     }
+
+    $('#btnSave').on('click', function() {
+        alert(11);
+            // SaveData(
+            //     'formCreateRole',
+            //     '@Url.Action("Create", "Role")',
+            //     GetDataTable('')
+            // )
+        })
+
+
 </script>
+
+

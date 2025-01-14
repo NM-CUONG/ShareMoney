@@ -243,6 +243,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.jQuery.Unobtrusive.Ajax": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -250,6 +254,10 @@
             "Scrutor": {
               "target": "Package",
               "version": "[5.1.0, )"
+            },
+            "Toastr": {
+              "target": "Package",
+              "version": "[2.1.1, )"
             },
             "X.PagedList": {
               "target": "Package",
