@@ -1,14 +1,13 @@
-﻿.btnAdd {
+﻿
+.groupBtn {
     display: flex;
     justify-content: end;
-}
-
-.bi {
-    padding-right: 5px !important;
+    gap: 10px;
+    margin: 10px 0px;
 }
 
 .btn {
-    padding: 10px !important;
+    padding: 6px 10px !important;
 }
 
 .form-label {

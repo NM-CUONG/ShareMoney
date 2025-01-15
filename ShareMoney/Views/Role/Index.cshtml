@@ -8,18 +8,24 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-<div class="btnAdd">
-    <button type="button" class="btn btn-primary btn-sm" onclick="CreateAction('@Url.Action("Create", "Role")')"><i class="bi bi-plus-lg"></i>Thêm mới</button>
+<div class="groupBtn">
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <i class="bi bi-search"></i>
+        Tìm kiếm
+    </a>
+    <a class="btn btn-success" role="button" onclick="CreateAction('@Url.Action("Create", "Role")')">
+        <i class="bi bi-plus-lg"></i>
+        Thêm mới
+    </a>
 </div>
+
+
+
+@Html.Partial("_Search");
 
 <div id="viewData">
     @{
         Html.RenderPartial("_ViewData", Model);
     }
 </div>
-
-<script>
-  
-</script>
 

@@ -127,10 +127,6 @@
                     <!-- Modal body render here -->
                 </div>
             </div>
-
-
-
-
         </div>
     </div>
 
@@ -150,7 +146,30 @@
     <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
     <script src="../lib/toastr/toastr.min.js"></script>
 
-    
+    <script>
+          $("#formSearch").on("keypress", function (e) {
+            if (e.key === "Enter") {
+                e.preventDefault();
+
+                 const form = $(this);
+                 const actionUrl = form.attr("action");
+                 const formData = form.serialize();
+
+                 $.ajax({
+                    url: actionUrl,       
+                    type: "POST",          
+                    data: formData,      
+                    success: function (response) {
+                        $('#viewData').html(response);
+                    },
+                    error: function (error) {
+                        toastr.error("Tìm kiếm không thành công!")
+                    }
+                });
+            }
+        });
+    </script>
+
 </body>
 
 </html>

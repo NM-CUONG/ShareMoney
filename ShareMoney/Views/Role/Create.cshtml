@@ -12,7 +12,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form id="formCreateRole">
+            <form id="formCreate">
                 <div class="mb-3">
                     @Html.LabelFor(x => x.Code, "Mã vai trò", new { @class = "form-label" })
                     @Html.TextBoxFor(x => x.Code, new { @class = "form-control" })
@@ -33,7 +33,9 @@
 </div>
 
 <script>
-      $(document).ready(function() {
-        
+    $(document).ready(function() {
+        $('#btnSave').on('click', function() {
+            SaveData('formCreate','@Url.Action("Create", "Role")')
+        })
     })
 </script>

@@ -7,6 +7,14 @@
     Layout = null;
 }
 
+<style>
+    .thaoTac {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+</style>
+
 <div class="container">
     <h2>Danh sách vai trò</h2>
     <table class="table table-responsive table-bordered table-striped table-hover">
@@ -15,6 +23,7 @@
                 <th>STT</th>
                 <th>Code</th>
                 <th>Name</th>
+                <th>Thao tác</th>
             </tr>
         </thead>
         <tbody>
@@ -23,18 +32,24 @@
                 int stt = (Model.PageNumber - 1) * Model.PageSize;
                 foreach (var item in Model)
                 {
-                            <tr>
-                                <td>@(++stt)</td>
-                                <td>@item.Code</td>
-                                <td>@item.Name</td>
-                            </tr>
+                    <tr>
+                        <td>@(++stt)</td>
+                        <td>@item.Code</td>
+                        <td>@item.Name</td>
+                        <td>
+                            <div class="thaoTac">
+                                <i class="btn btn-warning bi bi-pencil-square"></i>
+                                <i class="btn btn-danger bi bi-trash3"></i>
+                            </div>
+                        </td>
+                    </tr>
                 }
             }
             else
             {
-                    <tr>
-                        <td colspan="3" class="text-center">Không có dữ liệu</td>
-                    </tr>
+                <tr>
+                    <td colspan="4" class="text-center">Không có dữ liệu</td>
+                </tr>
             }
         </tbody>
     </table>

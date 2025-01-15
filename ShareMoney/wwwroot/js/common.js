@@ -31,7 +31,7 @@ function GetDataTable(link, tableId) {
 
 
 // Lấy dữ liệu từ view form rồi gửi sang controller
-function SaveData(formId, linkSave, tableId, linkRefresh) {
+function SaveData(formId, linkSave) {
     const formData = $(`#${formId}`).serialize();
     $.ajax({
         url: linkSave,
@@ -40,8 +40,7 @@ function SaveData(formId, linkSave, tableId, linkRefresh) {
         success: function (rs) {
             if (rs.status) {
                 toastr.success(rs.message);
-                // refresh table sau khi lưu thành công
-                GetDataTable(linkRefresh, tableId);
+                $('#MasterModal').modal('hide');
             } else {
                 toastr.error(rs.message);
             }
