@@ -1,5 +1,6 @@
 ﻿using Azure;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Model.Entities;
 using Newtonsoft.Json;
 using Service.RoleService;
@@ -102,11 +103,63 @@ namespace Web.Controllers
             }
             catch (Exception)
             {
-                result.ErrorMessage("Thêm mới thất bại");
+                result.ErrorMessage("Đã xảy ra lỗi");
                 return result;
             }
 
             return result;
         }
+
+        public IActionResult Edit(long id)
+        {
+            var editModal = new EditVM();
+            var role = _roleService.GetById(id);
+            editModal.Id = role.Id;
+            editModal.Code = role.Code;
+            editModal.Name = role.Name;
+            return View(editModal);
+        }
+
+        [HttpPost]    
+        public ResponseData Edit(EditVM model)
+        {
+            var result = new ResponseData() { status = true, message = "Cập nhật thành công" };
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    if (_roleService.GetAll().Any(x => x.Code == model.Code && x.Id != model.Id))
+                    {
+                        result.ErrorMessage("Mã vai trò đã tồn tại!");
+                        return result;
+                    }
+
+                    var role = _roleService.GetById(model.Id);
+
+                    if (role == null)
+                    {
+                        result.ErrorMessage("Không tìm thấy bản ghi để sửa!");
+                        return result;
+                    }
+                    role.Code = model.Code;
+                    role.Name = model.Name;
+                    _roleService.Update(role);
+                }
+                else
+                {
+                    result.ErrorMessage("Cập nhật thất bại");
+                    return result;
+                }
+            }
+            catch (Exception)
+            {
+                result.ErrorMessage("Đã xảy ra lỗi");
+                return result;
+            }
+
+            return result;
+        }
+    
+    
     }
 }

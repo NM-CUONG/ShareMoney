@@ -18,7 +18,7 @@ namespace Service.EntityService
             _dbSet = context.Set<T>();
         }
 
-        public T GetById(Guid id)
+        public T GetById(long id)
         {
             return _dbSet.Find(id);
         }
@@ -52,7 +52,7 @@ namespace Service.EntityService
             _context.SaveChanges();
         }
 
-        public void Delete(Guid id)
+        public void Delete(long id)
         {
             var entity = _dbSet.Find(id);
             if (entity != null)

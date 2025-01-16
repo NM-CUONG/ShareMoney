@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+
+@using Web.Models.Role;
+@model EditVM
+
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Cập nhật vai trò</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form id="formEdit">
+                @Html.HiddenFor(x => x.Id)
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Code, "Mã vai trò", new { @class = "form-label" })
+                    @Html.TextBoxFor(x => x.Code, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Code)
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Name, "Tên vai trò", new { @class = "form-label" })
+                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Name)
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="btnSave">Lưu</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('#btnSave').on('click', function() {
+            SaveData('formEdit','@Url.Action("Edit", "Role")')
+        })
+    })
+</script>
+
+
