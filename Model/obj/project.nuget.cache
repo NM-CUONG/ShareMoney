@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4BQcDD6LCY4=",
+  "dgSpecHash": "4wPKruZ/s/0=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj",
+  "projectFilePath": "D:\\Projects\\ShareMoney\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

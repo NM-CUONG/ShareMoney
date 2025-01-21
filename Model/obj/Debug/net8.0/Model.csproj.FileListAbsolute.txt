@@ -27,3 +27,4 @@ D:\Projects\ShareMoney\Source_ShareMoney\Model\obj\Debug\net8.0\refint\Model.dll
 D:\Projects\ShareMoney\Source_ShareMoney\Model\obj\Debug\net8.0\Model.pdb
 D:\Projects\ShareMoney\Source_ShareMoney\Model\obj\Debug\net8.0\Model.genruntimeconfig.cache
 D:\Projects\ShareMoney\Source_ShareMoney\Model\obj\Debug\net8.0\ref\Model.dll
+D:\Projects\ShareMoney\Model\obj\Debug\net8.0\Model.sourcelink.json

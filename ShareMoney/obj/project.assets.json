@@ -7948,11 +7948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\ShareMoney\\Web.csproj",
+      "projectUniqueName": "D:\\Projects\\ShareMoney\\ShareMoney\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\ShareMoney\\Web.csproj",
+      "projectPath": "D:\\Projects\\ShareMoney\\ShareMoney\\Web.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\ShareMoney\\obj\\",
+      "outputPath": "D:\\Projects\\ShareMoney\\ShareMoney\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7973,11 +7973,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj": {
-              "projectPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Model\\Model.csproj"
+            "D:\\Projects\\ShareMoney\\Model\\Model.csproj": {
+              "projectPath": "D:\\Projects\\ShareMoney\\Model\\Model.csproj"
             },
-            "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\Service.csproj": {
-              "projectPath": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\Service.csproj"
+            "D:\\Projects\\ShareMoney\\Service\\Service.csproj": {
+              "projectPath": "D:\\Projects\\ShareMoney\\Service\\Service.csproj"
             }
           }
         }
