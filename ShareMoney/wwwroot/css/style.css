@@ -13,3 +13,8 @@
 .form-label {
     color: black !important;
 }
+
+.breadcrumb-item {
+    font-size: large;
+    font-weight: bold;
+}

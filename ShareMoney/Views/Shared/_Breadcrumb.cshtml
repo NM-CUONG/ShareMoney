@@ -1,0 +1,20 @@
+﻿@using Web.Models.Common;
+@model List<Breadcrumb>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        @foreach (var item in Model)
+        {
+            if (item.IsActive == true)
+            {
+                <li class="breadcrumb-item active" aria-current="page">@item.Title</li>
+            }
+            else
+            {
+                <li class="breadcrumb-item">
+                    <a href="@item.Url">@item.Title</a>
+                </li>
+            }
+        }
+    </ol>
+</nav>

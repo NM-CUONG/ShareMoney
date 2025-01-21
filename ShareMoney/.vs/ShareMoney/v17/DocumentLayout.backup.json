@@ -1,45 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Share\\ShareMoney\\",
+  "WorkspaceRootPath": "D:\\Projects\\ShareMoney\\ShareMoney\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\wwwroot\\js\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:wwwroot\\js\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\views\\role\\_viewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\_viewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\views\\role\\_search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\shared\\_breadcrumb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\shared\\_breadcrumb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\models\\common\\breadcrumb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:models\\common\\breadcrumb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\_viewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\_viewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\_search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\_search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\views\\shared\\_pagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\shared\\_pagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\shared\\_pagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\share\\sharemoney\\models\\common\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\models\\common\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:models\\common\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -53,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 32,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,11 +69,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Breadcrumb.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\Breadcrumb.cs",
+              "RelativeDocumentMoniker": "Models\\Common\\Breadcrumb.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\Breadcrumb.cs",
+              "RelativeToolTip": "Models\\Common\\Breadcrumb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:31:44.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Breadcrumb.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Breadcrumb.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Breadcrumb.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Breadcrumb.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Breadcrumb.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T07:29:23.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Role\\Create.cshtml",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Create.cshtml",
               "RelativeToolTip": "Views\\Role\\Create.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAkwCIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -77,11 +107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\Edit.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Role\\Edit.cshtml",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\Edit.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Edit.cshtml",
               "RelativeToolTip": "Views\\Role\\Edit.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -89,23 +119,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Role\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Index.cshtml",
               "RelativeToolTip": "Views\\Role\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T15:06:26.848Z"
+              "WhenOpened": "2025-01-16T15:06:26.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Search.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\_Search.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_Search.cshtml",
               "RelativeDocumentMoniker": "Views\\Role\\_Search.cshtml",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\_Search.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_Search.cshtml",
               "RelativeToolTip": "Views\\Role\\_Search.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -113,11 +144,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_ViewData.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\_ViewData.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_ViewData.cshtml",
               "RelativeDocumentMoniker": "Views\\Role\\_ViewData.cshtml",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Views\\Role\\_ViewData.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_ViewData.cshtml",
               "RelativeToolTip": "Views\\Role\\_ViewData.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAswCsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -125,23 +156,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAswKMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T09:26:56.167Z"
+              "WhenOpened": "2025-01-14T09:26:56.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ResponseData.cs",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Models\\Common\\ResponseData.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\ResponseData.cs",
               "RelativeDocumentMoniker": "Models\\Common\\ResponseData.cs",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Models\\Common\\ResponseData.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\ResponseData.cs",
               "RelativeToolTip": "Models\\Common\\ResponseData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,36 +181,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "common.js",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\wwwroot\\js\\common.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\common.js",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\wwwroot\\js\\common.js",
-              "RelativeToolTip": "wwwroot\\js\\common.js",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwEgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-11T04:13:58.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Controllers\\RoleController.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\RoleController.cs",
               "RelativeToolTip": "Controllers\\RoleController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA9wCsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T02:48:07.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_PageList.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Share\\ShareMoney\\Views\\Shared\\_PageList.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_PageList.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_PageList.cshtml",
-              "ToolTip": "D:\\Projects\\Share\\ShareMoney\\Views\\Shared\\_PageList.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_PageList.cshtml",
               "RelativeToolTip": "Views\\Shared\\_PageList.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAcwDUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -186,12 +206,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RoleService.cs",
               "DocumentMoniker": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ShareMoney\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
+              "RelativeDocumentMoniker": "..\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
               "ToolTip": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
-              "RelativeToolTip": "..\\..\\ShareMoney\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
+              "RelativeToolTip": "..\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T08:59:24.975Z"

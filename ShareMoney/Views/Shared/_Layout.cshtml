@@ -117,6 +117,13 @@
             </header>
             <!--  Header End -->
             <div class="container-fluid">
+                <div class="breadcrumb-container">
+                    @if (ViewData["Breadcrumbs"] != null)
+                    {
+                        var breadcrumbs = ViewData["Breadcrumbs"] as List<Web.Models.Common.Breadcrumb>;
+                        @Html.Partial("_Breadcrumb", breadcrumbs)
+                    }
+                </div>
                 @RenderBody()
             </div>
 
