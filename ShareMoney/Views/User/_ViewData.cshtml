@@ -1,0 +1,74 @@
+﻿@using Service.UserService.Dto;
+@using X.PagedList;
+@using Web.Models.Common;
+@model IPagedList<UserDto>
+
+@{
+    Layout = null;
+}
+
+<style>
+    .thaoTac {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+</style>
+
+<div class="container">
+    <h2>Danh sách người dùng</h2>
+    <table class="table table-responsive table-bordered table-striped table-hover">
+        <thead class="table-info">
+            <tr>
+                <th>STT</th>
+                <th>Tên tài khoản</th>
+                <th>Tên người dùng</th>
+                <th>SĐT</th>
+                <th>Email</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                int stt = (Model.PageNumber - 1) * Model.PageSize;
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@(++stt)</td>
+                        <td>@item.UserName</td>
+                        <td>@item.Fullname</td>
+                        <td>@item.Phone</td>
+                        <td>@item.Email</td>
+                        <td>
+                            <div class="thaoTac">
+                                <i class="btn btn-warning bi bi-pencil-square" onclick="EditAction('@Url.Action("Edit", "User")' ,'@item.Id')"></i>
+                                <i class="btn btn-danger bi bi-trash3" onclick="DeleteAction('@Url.Action("Delete", "User", new {id = item.Id})')"></i>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="100%" class="text-center">Không có dữ liệu</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @* Phân trang  *@
+    @{
+        Html.RenderPartial("_PageList", new PageList
+            {
+                HasPreviousPage = Model.HasPreviousPage,
+                HasNextPage = Model.HasNextPage,
+                TotalPages = Model.PageCount,
+                PageSize = Model.PageSize,
+                TotalCount = Model.TotalItemCount,
+                PageIndex = Model.PageNumber,
+                ControllerName = "User"
+            });
+    }
+</div>

@@ -1,0 +1,37 @@
+﻿@using Service.UserService.Dto;
+@using X.PagedList;
+@using Web.Models.Common;
+@model IPagedList<UserDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    // breadcrumb
+    ViewData["Breadcrumbs"] = new List<Breadcrumb>
+    {
+        new Breadcrumb { Title = "Trang chủ", Url = "/" },
+        new Breadcrumb { Title = "Quản lý người dùng", Url = null, IsActive = true }
+    };
+
+}
+
+<div class="groupBtn">
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" User="button" aria-expanded="false" aria-controls="collapseExample">
+        <i class="bi bi-search"></i>
+        Tìm kiếm
+    </a>
+    <a class="btn btn-success" User="button" onclick="CreateAction('@Url.Action("Create", "User")')">
+        <i class="bi bi-plus-lg"></i>
+        Thêm mới
+    </a>
+</div>
+
+  @Html.Partial("_Search");
+
+<div id="viewData">
+    @{
+        Html.RenderPartial("_ViewData", Model);
+    }
+</div>
+

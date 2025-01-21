@@ -76,10 +76,7 @@ namespace Web.Controllers
             {
                 var dataSearch = JsonConvert.DeserializeObject<RoleSearchDto>(searchModelJson) ?? new RoleSearchDto();
                 // tìm kiếm giữ lại pageSize và trả về trang 1
-                if (!String.IsNullOrEmpty(search.Code))
-                {
-                    search.PageSize = dataSearch.PageSize;
-                }
+                search.PageSize = dataSearch.PageSize;
             }
             HttpContext.Session.SetString("SearchModel", JsonConvert.SerializeObject(search));
 

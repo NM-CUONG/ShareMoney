@@ -3,55 +3,27 @@
   "WorkspaceRootPath": "D:\\Projects\\ShareMoney\\ShareMoney\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\models\\common\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:models\\common\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\controllers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:controllers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\shared\\_breadcrumb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\shared\\_breadcrumb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D037EEAE-7D39-49F9-B84E-D5A846089A93}|..\\Model\\Model.csproj|d:\\projects\\sharemoney\\model\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\models\\common\\breadcrumb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:models\\common\\breadcrumb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\_viewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\_viewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\role\\_search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\role\\_search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\views\\shared\\_pagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:views\\shared\\_pagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\models\\common\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:models\\common\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|d:\\projects\\sharemoney\\sharemoney\\models\\role\\createvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FDBAAA2-9898-4519-BF9A-62DCFEFC180E}|Web.csproj|solutionrelative:models\\role\\createvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,181 +33,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 32,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "DocumentIndex": 0,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\Constant.cs",
+              "RelativeDocumentMoniker": "Models\\Common\\Constant.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\Constant.cs",
+              "RelativeToolTip": "Models\\Common\\Constant.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-21T07:56:22.584Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:40:24.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Breadcrumb.cs",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\Breadcrumb.cs",
-              "RelativeDocumentMoniker": "Models\\Common\\Breadcrumb.cs",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\Breadcrumb.cs",
-              "RelativeToolTip": "Models\\Common\\Breadcrumb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\Helper.cs",
+              "RelativeDocumentMoniker": "Controllers\\Helper.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\Helper.cs",
+              "RelativeToolTip": "Controllers\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T07:31:44.108Z",
+              "WhenOpened": "2025-01-21T09:38:08.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T09:17:22.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Breadcrumb.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Breadcrumb.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Breadcrumb.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Breadcrumb.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Breadcrumb.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-21T07:29:23.684Z",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\Model\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Model\\Entities\\User.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\Model\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Model\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:47:38.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Role\\Create.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Create.cshtml",
-              "RelativeToolTip": "Views\\Role\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAkwCIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T04:29:25.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Role\\Edit.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Role\\Edit.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T14:26:48.15Z",
+              "DocumentIndex": 5,
+              "Title": "CreateVM.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Role\\CreateVM.cs",
+              "RelativeDocumentMoniker": "Models\\Role\\CreateVM.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Role\\CreateVM.cs",
+              "RelativeToolTip": "Models\\Role\\CreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:47:23.033Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Role\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\Index.cshtml",
-              "RelativeToolTip": "Views\\Role\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T15:06:26.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Search.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_Search.cshtml",
-              "RelativeDocumentMoniker": "Views\\Role\\_Search.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_Search.cshtml",
-              "RelativeToolTip": "Views\\Role\\_Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T14:38:05.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewData.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_ViewData.cshtml",
-              "RelativeDocumentMoniker": "Views\\Role\\_ViewData.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Role\\_ViewData.cshtml",
-              "RelativeToolTip": "Views\\Role\\_ViewData.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswCsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T09:37:21.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAAAH0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T09:26:56.167Z",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowFkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:43:13.846Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ResponseData.cs",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\ResponseData.cs",
-              "RelativeDocumentMoniker": "Models\\Common\\ResponseData.cs",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Models\\Common\\ResponseData.cs",
-              "RelativeToolTip": "Models\\Common\\ResponseData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T08:54:45.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "Controllers\\RoleController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwB4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T02:48:07.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_PageList.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_PageList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_PageList.cshtml",
-              "ToolTip": "D:\\Projects\\ShareMoney\\ShareMoney\\Views\\Shared\\_PageList.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_PageList.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T10:42:50.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
-              "RelativeDocumentMoniker": "..\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
-              "ToolTip": "D:\\Projects\\ShareMoney\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
-              "RelativeToolTip": "..\\Source_ShareMoney\\Service\\RoleService\\RoleService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T08:59:24.975Z"
             }
           ]
         },
         {
-          "DockedWidth": 1144,
+          "DockedWidth": 1165,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -247,9 +142,17 @@
           ]
         },
         {
-          "DockedWidth": 1312,
+          "DockedWidth": 1144,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -261,10 +164,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",

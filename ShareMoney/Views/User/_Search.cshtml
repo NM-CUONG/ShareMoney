@@ -1,0 +1,17 @@
+﻿
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+        <form id="formSearch" action="/Role/SearchData">
+            <div class="row">
+                <div class="mb-3 col-6">
+                    @Html.Label("UserName", "Tên tài khoản", new { @class = "form-label" })
+                    @Html.TextBox("UserName", "", "", new { @class = "form-control" })
+                </div>
+                <div class="mb-3 col-6">
+                    @Html.Label("Fullname", "Họ tên", new { @class = "form-label" })
+                    @Html.TextBox("Fullname", "", "", new { @class = "form-control" })
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Model;
 using Service.RoleService;
+using Service.UserService;
 
 namespace ShareMoney
 {
@@ -18,6 +19,7 @@ namespace ShareMoney
 
             // Thêm các service cần thiết dưới đây
             builder.Services.AddScoped<IRoleService, RoleService>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
 
             // Thêm các dịch vụ cần thiết cho Session

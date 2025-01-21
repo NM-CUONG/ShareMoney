@@ -1,0 +1,51 @@
+﻿@{
+    Layout = null;
+}
+
+@using Web.Models.User;
+@model CreateVM
+
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Thêm mới người dùng</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form id="formCreate">
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.UserName, "Tên tài khoản", new { @class = "form-label" })
+                    @Html.TextBoxFor(x => x.UserName, new { @class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.UserName)
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Fullname, "Tên người dùng", new { @class = "form-label" })
+                    @Html.TextBoxFor(x => x.Fullname, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Fullname)
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Email, "Email", new { @class = "form-label" })
+                    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Email)
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Phone, "Email", new { @class = "form-label" })
+                    @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Phone)
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="btnSave">Lưu</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('#btnSave').on('click', function() {
+            SaveData('formCreate','@Url.Action("Create", "User")')
+        })
+    })
+</script>
