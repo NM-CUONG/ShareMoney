@@ -5,6 +5,7 @@ using Model.Entities;
 using Newtonsoft.Json;
 using Service.RoleService;
 using Service.RoleService.Dto;
+using System.Net.WebSockets;
 using System.Security.Permissions;
 using Web.Models.Common;
 using Web.Models.Role;
@@ -26,16 +27,33 @@ namespace Web.Controllers
             return View(data);
         }
 
-        // Được gọi khi thao tác với pagination hoặc sau khi thao CRUD trên bảng dữ liệu
-        public IActionResult GetData(int PageIndex, int PageSize)
+        // Dùng để cập nhật lại table data sau khi CRUD: giữ lại searchmodel
+        public IActionResult Refresh()
         {
-            var searchModelJson = HttpContext.Session.GetString("SearchModel");
             var searchModel = new RoleSearchDto();
+            // lấy lại search để giữ nguyên màn hình trang
+            var searchModelJson = HttpContext.Session.GetString("SearchModel");
             if (!String.IsNullOrEmpty(searchModelJson))
             {
                 searchModel = JsonConvert.DeserializeObject<RoleSearchDto>(searchModelJson) ?? new RoleSearchDto();
             }
 
+            var data = _roleService.GetDataByPage(searchModel);
+
+            return PartialView("_ViewData", data);
+        }
+
+        // Được gọi khi thao tác với pagination
+        public IActionResult GetData(int PageIndex, int PageSize)
+        {
+            var searchModelJson = HttpContext.Session.GetString("SearchModel");
+            var searchModel = new RoleSearchDto();
+            // chuyển trang vẫn giữ lại phần tìm kiếm 
+            if (!String.IsNullOrEmpty(searchModelJson))
+            {
+                searchModel = JsonConvert.DeserializeObject<RoleSearchDto>(searchModelJson) ?? new RoleSearchDto();
+            }
+            // chỉ thay đổi trang và pageSize
             searchModel.PageIndex = PageIndex;
             searchModel.PageSize = PageSize;
 
@@ -45,7 +63,7 @@ namespace Web.Controllers
             return PartialView("_ViewData", data);
         }
 
-
+        // Được gọi khi tìm kiếm
         public IActionResult SearchData(RoleSearchDto searchModel)
         {
             var search = new RoleSearchDto();
@@ -63,6 +81,7 @@ namespace Web.Controllers
                     search.PageSize = dataSearch.PageSize;
                 }
             }
+            HttpContext.Session.SetString("SearchModel", JsonConvert.SerializeObject(search));
 
             var data = _roleService.GetDataByPage(search);
             return PartialView("_ViewData", data);
@@ -120,7 +139,7 @@ namespace Web.Controllers
             return View(editModal);
         }
 
-        [HttpPost]    
+        [HttpPost]
         public ResponseData Edit(EditVM model)
         {
             var result = new ResponseData() { status = true, message = "Cập nhật thành công" };
@@ -159,7 +178,28 @@ namespace Web.Controllers
 
             return result;
         }
-    
-    
+
+        [HttpGet]
+        public ResponseData Delete(long id)
+        {
+            var result = new ResponseData() { status = true, message = "Xóa thành công" };
+            try
+            {
+                var item = _roleService.GetById(id);
+                if (item == null)
+                {
+                    result.ErrorMessage("Không tìm thấy thông tin cần xóa!");
+                    return result;
+                }
+
+                _roleService.Delete(item.Id);
+            }
+            catch (Exception)
+            {
+                result.ErrorMessage("Đã xảy ra lỗi khi xóa!");
+            }
+            return result;
+        }
+
     }
 }

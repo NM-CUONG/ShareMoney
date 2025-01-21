@@ -51,6 +51,7 @@
 
 <script>
     function ReRenderViewData(pageIndex) {
+        if ('@Model.PageIndex' == pageIndex) return;
         $.ajax({
             url: '@Url.Action(Model.ActionName, Model.ControllerName)',
             type: 'GET',

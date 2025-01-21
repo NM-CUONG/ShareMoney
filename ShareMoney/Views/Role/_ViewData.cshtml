@@ -39,7 +39,7 @@
                         <td>
                             <div class="thaoTac">
                                 <i class="btn btn-warning bi bi-pencil-square" onclick="EditAction('@Url.Action("Edit", "Role")' ,'@item.Id')"></i>
-                                <i class="btn btn-danger bi bi-trash3" onclick="DeleteAction('@item.Id')"></i>
+                                <i class="btn btn-danger bi bi-trash3" onclick="DeleteAction('@Url.Action("Delete", "Role", new {id = item.Id})')"></i>
                             </div>
                         </td>
                     </tr>

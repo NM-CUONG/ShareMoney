@@ -156,9 +156,9 @@
                  const formData = form.serialize();
 
                  $.ajax({
-                    url: actionUrl,       
-                    type: "POST",          
-                    data: formData,      
+                    url: actionUrl,
+                    type: "POST",
+                    data: formData,
                     success: function (response) {
                         $('#viewData').html(response);
                     },
@@ -168,6 +168,8 @@
                 });
             }
         });
+
+
     </script>
 
 </body>

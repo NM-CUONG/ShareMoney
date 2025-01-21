@@ -14,6 +14,7 @@ function CreateAction(link) {
     })
 }
 
+// Mở modal cập nhật
 function EditAction(link, id) {
     $.ajax({
         url: link,
@@ -29,19 +30,21 @@ function EditAction(link, id) {
     })
 }
 
-function DeleteAction(id) {
+// Mở modal xóa
+function DeleteAction(link) {
     let strHtml = `
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">XÁC NHẬN XÓA!</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <h4>Bạn có chắc chắn muốn xóa?</h4>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-danger" onclick="HandleDelete('${link}')">Xóa</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
             </div>
         </div>
     </div>
@@ -51,12 +54,33 @@ function DeleteAction(id) {
 
 }
 
-// Reload Table
-function GetDataTable(link, tableId) {
+// Hàm xóa
+function HandleDelete(link) {
     $.ajax({
         url: link,
-        method: 'post',
-        data: { PageIndex: 1, PageSize: 10 },
+        method: 'get',
+        success: function (rs) {
+            if (rs.status) {
+                toastr.success(rs.message);
+                $('#MasterModal').modal('hide');
+                Refresh(link, "viewData");
+            } else {
+                toastr.error(rs.message);
+            }
+        },
+        error: function (rs) {
+            toastr.error(rs.message);
+        }
+    })
+}
+
+
+// Làm mới danh sách
+function Refresh(link, tableId) {
+    let linkRefresh = link?.replace(/Create|Edit|Delete/, "Refresh");
+    $.ajax({
+        url: linkRefresh,
+        method: 'get',
         success: function (rs) {
             $(`#${tableId}`).html(rs);
         },
@@ -78,6 +102,7 @@ function SaveData(formId, linkSave) {
             if (rs.status) {
                 toastr.success(rs.message);
                 $('#MasterModal').modal('hide');
+                Refresh(linkSave, "viewData");
             } else {
                 toastr.error(rs.message);
             }
